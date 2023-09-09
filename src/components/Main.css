@@ -75,6 +75,24 @@
     transform: translateY(-5px); 
   }
 
+  .Dot, .Dot-Second{
+    width: 10px; 
+    height: 10px; 
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 105%; 
+    margin-top: 30px;
+    animation: moveRight 5s linear infinite;
+  }
+
+  .Dot-Second{
+    position: absolute;
+    top: 115%;
+    animation: moveRight2 5s linear infinite;
+  }
+
+
   .Social-Media{
     position: absolute;
     top: 15vh; 

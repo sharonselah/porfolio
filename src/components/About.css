@@ -1,0 +1,95 @@
+.About{
+    height: 120vh; 
+    background-color: #F6F6F6;
+    padding-block: 180px;
+}
+
+.About-Intro{
+    text-align: center;
+}
+
+.About-Intro h1{
+    font-size: 60px;
+    
+}
+
+.Underline{
+    border:3px solid #7843E9; 
+    border-radius: 10px;
+    width: 8%;
+    margin: 30px auto;
+}
+
+.About-Intro p{
+    font-size: 22px;
+    color: rgb(156, 156, 156);
+    line-height: 2;
+    
+}
+
+.About-Content{
+    margin-top: 50px;
+    display: flex;
+    padding: 30px 60px;
+
+}
+
+.About-Content >*{
+    flex:1;
+    padding: 0px 25px;
+
+}
+
+.About-Desc p{
+    font-size: 19px; 
+    line-height: 2;
+    margin-block: 20px;
+    color: rgb(154, 154, 154);
+
+}
+
+.About-Desc span{
+    font-weight: bold;
+    color:rgb(92, 92, 92);
+}
+
+
+
+.Grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.Grid div >*{
+    background-color: rgb(231,231,231);
+    color: rgb(79, 79, 79); 
+    padding: 15px 5px; 
+    border-radius: 5px; 
+    text-align: center;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.Grid div >*:hover{
+    background-color: gray;
+    color: white;
+}
+
+.Grid-One{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.Grid-Two{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.Grid-Three{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}

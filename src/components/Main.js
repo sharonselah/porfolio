@@ -17,6 +17,8 @@ export default function Main() {
             Applications <br />using React and Node JS. 
           </p>
           <button>PROJECTS</button>
+          <div className="Dot"></div>
+          <div className="Dot-Second"></div>
         </div>
 
         <div className="Social-Media">
@@ -24,10 +26,6 @@ export default function Main() {
           <a href="https://www.linkedin.com/in/sharon-selah-9b4a451b9/"><FontAwesomeIcon icon={faLinkedin} /></a>
           <a href="https://www.twitter.com/SelahSharon"><FontAwesomeIcon icon={faSquareXTwitter} /></a>
           <a href="https://medium.com/@sellaah.sharon2001"><FontAwesomeIcon icon={faMedium} /></a>
-      
-          
-      
-
         </div>
       </div>
     </div>
