@@ -1,0 +1,50 @@
+.Header{
+    background-color: white;
+    height: 80px; 
+    border:1px solid black;
+    padding: 10px 20px; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+.Menu{
+    width: 40%; 
+}
+
+.Menu nav{
+    display: flex; 
+    justify-content: space-between;
+    padding-block: 30px;
+    font-weight: bold;
+}
+
+.nav-link{
+   text-decoration: none;
+   color: black; 
+   transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #7843E9; /* Color on hover */
+}
+
+.Name{
+    transition: color 0.3s; 
+}
+
+.Name:hover{
+    color: #7843E9; /* Color on hover */
+}
+
+.Profile-Info{
+    width: 26%; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.Img img {
+    border-radius: 50%;
+    width: 60px; 
+    height: 60px; 
+}
+  
