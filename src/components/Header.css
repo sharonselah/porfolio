@@ -47,3 +47,23 @@
     height: 60px; 
 }
   
+@media screen and (max-width: 767px) {
+    .Header {
+        height: auto; /* Adjust height to fit content */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .Menu {
+        width: 100%; /* Full width for mobile */
+    }
+
+    .Menu nav {
+        padding-block: 15px; /* Reduce padding for mobile */
+    }
+
+    .Profile-Info {
+        width: 100%; /* Full width for mobile */
+        margin-top: 15px; /* Add some spacing */
+    }
+}

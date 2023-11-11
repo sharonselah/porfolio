@@ -1,5 +1,5 @@
 .About{
-    height: 120vh; 
+    min-height: 120vh; 
     background-color: #F6F6F6;
     padding-block: 180px;
 }
@@ -92,4 +92,47 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .About {
+        padding-block: 60px; /* Adjust padding for smaller screens */
+    }
+
+    .About-Intro h1 {
+        font-size: 40px; /* Adjust font size for smaller screens */
+    }
+
+    .Underline {
+        width: 15%; /* Adjust width for smaller screens */
+    }
+
+    .About-Intro p {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+
+    .About-Content {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .About-Content > * {
+        padding: 0; /* Remove horizontal padding for smaller screens */
+        margin-bottom: 20px; /* Add spacing between items for smaller screens */
+    }
+
+    .About-Desc p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .Grid div > * {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .Grid-One,
+    .Grid-Two,
+    .Grid-Three {
+        grid-template-columns: repeat(2, 1fr); /* Adjust grid columns for smaller screens */
+        grid-gap: 8px; /* Adjust grid gap for smaller screens */
+    }
 }
