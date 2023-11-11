@@ -1,0 +1,46 @@
+.projects{
+    background-color: white;
+    background-color: #f8f8f8d0; 
+    padding: 50px;
+}
+
+  
+  .project {
+    width: 65%; 
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    min-height: 70vh;
+  }
+
+  .project h2{
+    text-align: center;
+  }
+
+  .project p{
+    font-size: 18px;
+    color: gray;
+    line-height: 2;
+    margin-bottom: 30px;
+  }
+
+  .project a{
+    margin-left: 45%;
+    font-size: 18px; 
+    color: blueviolet; 
+}
+
+  .project img {
+    max-width: 100%; 
+    max-height: 100%; 
+    display: block; 
+    margin: 20px auto; 
+  }
+  
+  @media (max-width: 600px) {
+    .project {
+      width: 100%; /* Set to full width on mobile devices */
+    }
+  }
+  
